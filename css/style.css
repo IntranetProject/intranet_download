@@ -1,0 +1,115 @@
+body,
+html {
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    display: block;
+    background-color: #4E5C63;
+    padding-top: 1%;
+}
+
+.inner {
+    background-color: #2D3438;
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 0px 0px 50px 0px black;
+}
+
+div.navbar {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.left {
+    float: left;
+    margin-left: 5%;
+    width: 20%;
+}
+
+.right {
+    float: right;
+    margin-right: 5%;
+    width: 20%
+}
+
+.downloads {
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    overflow: auto;
+    display: block;
+}
+
+.downloads h1 {
+    font-size: 3em;
+    text-align: center;
+}
+.release {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+    text-align: center;
+}
+.beta {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: right;
+    text-align: center;
+}
+table {
+    width: 100%;
+}
+table a {
+    border-width: 2px;
+    border-style: solid;
+    width: 100px;
+    height: 50px;
+    margin-right: 20px !important;
+    padding: 1px !important;
+    padding-top: 15px !important;
+    list-style: none;
+    line-height: 100%;
+    text-align: center;
+    font-size: 2em !important;
+    display: inline-block;
+    color: white;
+    text-decoration: none !important;
+    margin-bottom: 10%;
+}
+h2 {
+    font-size: 2em !important;
+}
+td {
+    margin-left: 20%;
+}
+
+
+.git,
+.imp,
+.credit {
+    width: calc(100%/3);
+    float: left;
+    text-align: center;
+    background-color: #2D3438;
+    margin-top: 0.5%;
+    font-family: 'Crimson Text', serif;
+}
+
+.footer a {
+    text-decoration: underline;
+    color: white;
+}
+
+.footer a:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+.footer {
+    margin-top: 1%;
+}
