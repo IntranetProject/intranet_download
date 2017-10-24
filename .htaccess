@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{DOCUMENT_ROOT}/up.txt !-d
+RewriteRule ^.*$ http://maintenance.intranetproject.net/?site=Download [L]
