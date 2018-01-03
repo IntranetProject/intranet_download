@@ -1,61 +1,85 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/reset.css"> </head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" media="screen,projection">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <title>Downloads</title>
+</head>
 
 <body>
+  <header>
+    <nav class="teal">
+      <div class="nav-wrapper">
+        <a class="brand-logo">Downloads</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="http://intranetproject.net">Main Page</a></li>
+          <li><a href="laterversions.html">All downloads</a></li>
+          <li class="rightright"><a href="#">Login</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="http://intranetproject.net">Main Page</a></li>
+          <li><a href="laterversions.html">All downloads</a></li>
+          <li class="rightright"><a href="#">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+  <div class="container">
+    <div class="inner">
+      <div class="downloads">
+        <div class="collection with-header">
+          <h4 class="collection-header">Release</h4>
+          <a href="#" class="collection-item">v 1.0.0</a>
+          <a href="#" class="collection-item">v 2.0.0</a>
+          <a href="#" class="collection-item">v 3.0.0</a>
+          <a href="#" class="collection-item">v 4.0.0</a>
+        </div>
+        <p class="text"><a href="laterversions.html">Later versions...</a></p>
+        <hr>
+        <div class="collection with-header">
+          <h4 class="collection-header">Beta</h4>
+          <a href="#" class="collection-item">v 0.1.0</a>
+          <a href="#" class="collection-item">v 0.2.0</a>
+          <a href="#" class="collection-item">v 0.3.0</a>
+          <a href="#" class="collection-item">v 0.4.0</a>
+        </div>
+        <p class="text"><a href="laterversions.html">Later versions...</a></p>
+      </div>
+    </div>
+  </div>
+</main>
+  <footer class="page-footer teal lighten-2">
     <div class="container">
-        <div class="navbar">
-            <ul>
-                <li class="left"><a href="http://www.intranetproject.net">Main Page</a></li>
-                <li class="middle">
-                    <p>Downloads</p>
-                </li>
-                <li class="right"><a href="#">Login</a></li>
-            </ul>
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Questions?</h5>
+          <p class="grey-text text-lighten-4">Contact: <a href="mailto:support@intranetproject.net" style="color:white; text-decoration:underline;">support@intranetproject.net</a></p>
         </div>
-        <div class="inner">
-            <div class="downloads">
-                <div class="release">
-                    <h2>Release Versions</h2>
-                    <div class="rversions">
-                        <div> <a href="#">v 1.0.0</a> </div>
-                        <div> <a href="#">v 2.0.0</a> </div>
-                        <div> <a href="#">v 3.0.0</a> </div>
-                        <div> <a href="#">v 4.0.0</a> </div>
-                        <div> <a href="#">v 5.0.0</a> </div>
-                        <div> <a href="#">v 6.0.0</a> </div>
-                        <div> <a href="#">v 7.0.0</a> </div>
-                        <div> <a href="#">v 8.0.0</a> </div>
-                    </div>
-                    <p class="text"><a href="laterversions.html">Later versions...</a></p>
-                </div>
-                <hr>
-                <div class="beta">
-                    <h2>Beta Versions</h2>
-                    <div class="bversions">
-                        <div> <a href="#">v 0.1.0</a> </div>
-                        <div> <a href="#">v 0.2.0</a> </div>
-                        <div> <a href="#">v 0.3.0</a> </div>
-                        <div> <a href="#">v 0.4.0</a> </div>
-                    </div>
-                    <p class="text"><a href="laterversions.html">Later versions...</a></p>
-                </div>
-            </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="https://github.com/IntranetProjec">GitHub</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://intranetproject.net/imprint.html">Imprint</a></li>
+            <li>
+              <p class="grey-text text-lighten-3" href="#!"><b><i>&lt; &gt;</i>
+                </b> with <i style="color: red;">&hearts;</i> by <a class="grey-text text-lighten-3" href="https://github.com/IntranetProject">Intranet</a></p>
+            </li>
+          </ul>
         </div>
+      </div>
     </div>
-    <div class="footer">
-        <div class="git">
-            <p><a href="https://github.com/IntranetProject">GitHub</a></p>
-        </div>
-        <div class="imp">
-            <p><a href="imprint.html">Impressum</a></p>
-        </div>
-        <div class="credit">
-            <p><b><i style="color: black;">&lt; &gt;</i></b> with <i style="color: red;">&hearts;</i> by <a href="https://github.com/IntranetProject">Intranet</a></p>
-        </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <i class="material-icons tiny">copyright</i> 2017 Intranet Project
+      </div>
     </div>
+  </footer>
 </body>
 
 </html>
