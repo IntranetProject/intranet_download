@@ -91,7 +91,7 @@
         </div>
         <div class="footer-copyright">
             <div class="container">
-                <i class="material-icons tiny">copyright</i> 2017 Intranet Project
+                <i class="material-icons tiny">copyright</i> <?php echo "2017-" . date('Y'); ?> Intranet Project
             </div>
         </div>
     </footer>
