@@ -17,7 +17,7 @@
 
 <body>
     <header>
-        <nav class="teal">
+        <nav class="blue darken-2">
             <div class="nav-wrapper">
                 <a class="brand-logo">Downloads</a>
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -59,7 +59,7 @@
             </div>
         </div>
     </main>
-    <footer class="page-footer teal lighten-2">
+    <footer class="page-footer blue">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
