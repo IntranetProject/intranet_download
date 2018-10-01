@@ -8,13 +8,14 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <title>All Downloads</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
   <header>
-    <nav class="teal">
+    <nav class="blue darken-2">
       <div class="nav-wrapper">
-        <a class="brand-logo">All Downloads</a>
+        <a class="brand-logo" style="margin-left: 20px;">All Downloads</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li class="leftleft"><a href="index.html">&larr; Back</a></li>
@@ -48,21 +49,32 @@
     </div>
   </div>
 </main>
-  <footer class="page-footer teal lighten-2">
+  <footer class="page-footer blue">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Questions?</h5>
-          <p class="grey-text text-lighten-4">Contact: <a href="mailto:support@intranetproject.net" style="color:white; text-decoration:underline;">support@intranetproject.net</a></p>
+          <h5 class="white-text">Links to all other pages:</h5>
+          <ul style="list-style-type: none">
+            <li><a href="http://intranetproject.net" class="white-text">Main Page</a></li>
+            <li><a href="http://download.intranetproject.net" class="white-text">Downloads</a></li>
+            <li><a href="http://status.intranetproject.net" class="white-text">Status</a></li>
+            <li><a href="http://shop.intranetproject.net" class="white-text">Shop</a></li>
+            <li><a href="http://account.intranetproject.net" class="white-text">Account</a></li>
+            <li><a href="http://packages.intranetproject.net" class="white-text">Packages</a></li>
+            <li><a href="http://blog.intranetproject.net" class="white-text">Blog</a></li>
+            <li><a href="http://docs.api.intranetproject.net" class="white-text">API-Docs</a></li>
+          </ul>
         </div>
         <div class="col l4 offset-l2 s12">
           <h5 class="white-text">Links</h5>
           <ul>
-            <li><a class="grey-text text-lighten-3" href="https://github.com/IntranetProjec">GitHub</a></li>
-            <li><a class="grey-text text-lighten-3" href="imprint.html">Imprint</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://twitter.com/Intranetprojec">Twitter</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://github.com/IntranetProject">GitHub</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://intranetproject.net/imprint.html">Imprint</a></li>
             <li>
-              <p class="grey-text text-lighten-3" href="#!">&lt; &gt;</i>
-                </b> with <i style="color: red;">&hearts;</i> by <a class="grey-text text-lighten-3" href="https://github.com/IntranetProject">Intranet</a></p>
+              <p class="grey-text text-lighten-3" href="#!"><b><i class="material-icons">code</i>
+              </b> with <i style="color: red;">&hearts;</i> by <a target="_blank" class="grey-text text-lighten-3" href="https://github.com/IntranetProject">Intranet</a> and help from <a target="_blank" class="grey-text text-lighten-3" href="http://materializecss.com/">Materialize</a>
+              </p>
             </li>
           </ul>
         </div>
@@ -70,7 +82,7 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-        <i class="material-icons tiny">copyright</i> 2017 Intranet Project
+        <i class="material-icons tiny">copyright</i> <?php echo "2017-" . date('Y'); ?> Intranet Project
       </div>
     </div>
   </footer>

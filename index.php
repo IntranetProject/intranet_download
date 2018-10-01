@@ -13,13 +13,14 @@
     <meta property="og:url" content="https://download.intranetproject.net" />
     <meta property="og:description" content="Intranetproject's download page" />
     <meta property="og:site_name" content="Download" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <header>
         <nav class="blue darken-2">
             <div class="nav-wrapper">
-                <a class="brand-logo">Downloads</a>
+                <a class="brand-logo" style="margin-left: 20px;">Downloads</a>
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="http://intranetproject.net">Main Page</a></li>
@@ -82,8 +83,9 @@
                         <li><a class="grey-text text-lighten-3" href="https://github.com/IntranetProject">GitHub</a></li>
                         <li><a class="grey-text text-lighten-3" href="https://intranetproject.net/imprint.html">Imprint</a></li>
                         <li>
-                            <p class="grey-text text-lighten-3" href="#!"><b><i>&lt; &gt;</i>
-                </b> with <i style="color: red;">&hearts;</i> by <a class="grey-text text-lighten-3" href="https://github.com/IntranetProject">Intranet</a></p>
+                            <p class="grey-text text-lighten-3" href="#!"><b><i class="material-icons">code</i>
+                                </b> with <i style="color: red;">&hearts;</i> by <a class="grey-text text-lighten-3" target="_blank" href="https://github.com/IntranetProject">Intranet</a> and help from <a target="_blank" class="grey-text text-lighten-3" href="http://materializecss.com/">Materialize</a>
+                            </p>
                         </li>
                     </ul>
                 </div>
